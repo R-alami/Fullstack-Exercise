@@ -1,0 +1,119 @@
+.episode {
+  margin-top: 70px;
+  display: flex;
+  align-items: flex-start;
+
+  &-number {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+    .number {
+      width: 80px;
+      height: 80px;
+      z-index: 2;
+      position: relative;
+      font-family: "EB Garamond";
+      font-size: 34px;
+      font-weight: 900;
+      // background-color: red;
+      color: #fff;
+    }
+
+    .number-img {
+      width: 100px;
+      z-index: 1;
+      position: absolute;
+      border: 1px solid #e9e6e6;
+      padding: 5px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &-info {
+    text-align: left;
+    margin-left: 30px;
+
+    span {
+      letter-spacing: 0.3em;
+      color: #9e9e9e;
+    }
+
+    h1 {
+      font-family: "EB Garamond";
+      font-size: 1.5em;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+
+      &-img {
+        width: 60px;
+        margin-right: 20px;
+        margin-top: 20px;
+        border: 1px solid #e9e6e6;
+        padding: 5px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      h5 {
+        margin: 0;
+        font-size: 0.8em;
+
+        a {
+          color: #000;
+        }
+      }
+    }
+
+    button {
+      text-align: right;
+      display: inline-block;
+      font-weight: 700;
+      line-height: 1.7em;
+      font-size: 0.8em;
+      background: transparent;
+      border: 2px solid #0b1841;
+      border-radius: 0;
+      width: 240px;
+      box-shadow: 4px 4px 0 #000;
+      color: #0b1841;
+      padding: 10px;
+      padding-right: 0;
+      margin-top: 30px;
+
+      &:hover {
+        background: #fff;
+        border-color: #0b1841;
+        color: #0b1841;
+        box-shadow: 0 0 0 #000;
+      }
+
+      span {
+        color: #0b1841;
+        padding-left: 20px;
+        padding-right: 0;
+        font-weight: 900;
+        font-size: 2em;
+      }
+    }
+
+    .link-itunes {
+      font-size: 0.8em;
+      margin-top: 20px;
+
+      a {
+        color: #000 !important;
+      }
+    }
+  }
+}
