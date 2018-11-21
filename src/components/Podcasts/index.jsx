@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "reactstrap";
 import "./index.scss";
 
-const Podcasts = prpos => {
+const Podcasts = () => {
   return (
     <section className="episode">
       <div className="episode-number">
@@ -25,14 +25,14 @@ const Podcasts = prpos => {
             <img src="./profile.svg" alt="" />
           </div>
           <h5>
-            <span>Guest:</span> Grzegorz Rog from <a href="">Eduweb</a>
+            <span>Guest:</span> Grzegorz Rog from <a href="/">Eduweb</a>
           </h5>
         </div>
         <Button>
           Listen on Soundcloud <span>→</span>
         </Button>
         <div className="link-itunes" >
-          <a href="">
+          <a href="/">
             or jump to iTunes
           </a>
         </div>

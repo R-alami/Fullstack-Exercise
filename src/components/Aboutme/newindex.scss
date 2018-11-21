@@ -1,0 +1,50 @@
+img{
+    width: 100%;
+    // margin-bottom: 40px;
+}
+
+.about-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background: #ffb8ba;
+    margin-bottom: 40px;
+    background-image: url('/aboutbg.png');
+    background-size: cover;
+    
+    .aboutme{
+        // padding: 20px;
+        // padding-right: 90px;
+        // z-index: 1;
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        // margin-left: 50px;
+        color: #ffffff;
+
+        h5{
+            letter-spacing: 0.3em;
+            font-size: .8em;
+            margin: 0;
+            padding: 0;
+        }
+
+        p{
+            font-family: 'EB Garamond';
+            font-size: 2em;
+            font-weight: 400;
+            line-height: 1.2em;
+            margin: 0;
+            padding: 0;
+        }
+
+        a{
+            color: #ffffff;
+            text-decoration: underline;
+        }
+       
+    }
+}
